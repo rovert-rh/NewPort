@@ -665,9 +665,18 @@ input, select, textarea {
 		width: 60vh;
 	}
 
+	.DevIcon{
+		width: 3vh;
+	}
+	.DevIcon:hover{
+		transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+		width: 3.5vh;
+	}
+	
+
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
+			background-image: url("../../images/overlay.webp");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -729,6 +738,10 @@ input, select, textarea {
 
 			.image.main {
 				margin: 2rem 0;
+			}
+			.ProyectosImg{
+				margin: 1rem 0;
+				width: 30vh;
 			}
 
 		}
@@ -1160,7 +1173,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.webp");
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1179,7 +1192,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/bg.webp");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
